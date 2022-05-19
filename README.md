@@ -8,3 +8,6 @@ pip install virtualenv
 3	Set up a Django project	django-admin startproject <projectname><br />
 4	Start a Django app	python or python3 manage.py startapp <appname><br />
   https://realpython.com/django-setup/<br />
+
+  
+  bleach 5.0.0 changed the clean method in django so summernote field style arg won't pass is_valid()
